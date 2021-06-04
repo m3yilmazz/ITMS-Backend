@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITMSWebAPI.DTO\ITMSWebAPI.DTO.csproj" />
+    <ProjectReference Include="..\ITMSWebAPI.Models\ITMSWebAPI.Models.csproj" />
+    <ProjectReference Include="..\ITMSWebAPI.Utility\ITMSWebAPI.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
